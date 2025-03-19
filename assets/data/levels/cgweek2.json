@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "CASSETTE GIRL FREEPLAY",
+  "titleAsset": "storymenu/titles/weekcg",
+  "visible": false,
+  "props": [],
+  "background": "#F9CF51",
+  "songs": ["soda-groove", "city-funk"]
+}

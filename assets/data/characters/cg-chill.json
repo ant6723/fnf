@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "name": "Cassette Girl Chill",
+    "renderType": "multisparrow",
+    "assetPath": "characters/cassettegirl-chill",
+    "flipX": false,
+    "singTime": 4,
+    "animations": [
+        {
+            "name": "chill",
+            "prefix": "cassettegirl-chill",
+            "offsets": [
+                0,
+                0
+            ]
+        }
+    ],
+    "startingAnimation": "",
+    "isPixel": false,
+    "scale": 1,
+    "Made_With": "the cigs Converter"
+}

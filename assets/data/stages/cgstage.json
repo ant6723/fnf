@@ -1,0 +1,81 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 10,
+      "position": [-1050, -1560],
+      "scale": [1.3, 1.3],
+      "animType": "sparrow",
+      "name": "cgbg",
+      "isPixel": false,
+      "assetPath": "weekcg/CGBG",
+      "scroll": [1, 1],
+      "animations": [
+      { "name": "idle", "prefix": "new", "looped": true }
+      ],
+      "startingAnimation": "idle"
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 120,
+      "position": [-270, -460],
+      "scale": [1.32, 1.32],
+      "animType": "sparrow",
+      "name": "bopper1",
+      "isPixel": false,
+      "assetPath": "weekcg/bopper1",
+      "scroll": [1, 1],
+      "animations": [
+      { "name": "idle", "prefix": "crowd", "looped": true }
+      ],
+      "startingAnimation": "idle"
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 130,
+      "position": [-340, -470],
+      "scale": [1.32, 1.32],
+      "animType": "sparrow",
+      "name": "bopper2",
+      "isPixel": false,
+      "assetPath": "weekcg/bopper2",
+      "scroll": [1, 1],
+      "animations": [
+      { "name": "idle", "prefix": "crowd", "looped": true }
+      ],
+      "startingAnimation": "idle"
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 400,
+      "position": [-800, -1500],
+      "scale": [3, 3],
+      "animType": "sparrow",
+      "name": "bglayer",
+      "isPixel": false,
+      "assetPath": "weekcg/BGLAYER",
+      "scroll": [1, 1],
+      "animations": []
+    }
+  ],
+  "cameraZoom": 0.7,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [960, 350],
+      "cameraOffsets": [-100, -250]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [230, 400],
+      "cameraOffsets": [150, -100]
+    },
+    "gf": {
+      "zIndex": 100,
+      "cameraOffsets": [0, 0],
+      "position": [620, 160]
+    }
+  },
+  "name": "cgstage"
+}

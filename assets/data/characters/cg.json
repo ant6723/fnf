@@ -1,0 +1,70 @@
+{
+    "version": "1.0.0",
+    "name": "Cassette Girl",
+    "renderType": "multisparrow",
+    "assetPath": "characters/cassettegirl",
+    "flipX": false,
+    "singTime": 4,
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "cassettegirl idle",
+            "offsets": [
+                0,
+                0
+            ]
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "cassettegirl left",
+            "offsets": [
+                -2,
+                0
+            ],
+            "looped": true
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "cassettegirl right",
+            "offsets": [
+                -2,
+                0
+            ],
+            "looped": true
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "cassettegirl down",
+            "offsets": [
+                2,
+                -1
+            ],
+            "looped": true
+        },
+        {
+            "name": "singUP",
+            "prefix": "cassettegirl up",
+            "offsets": [
+                0,
+                0
+            ],
+            "looped": true
+        },
+        {
+            "name": "chill",
+            "prefix": "cassettegirl-chill",
+            "assetPath": "characters/cassettegirl-chill",
+            "offsets": [0, 0]
+        },
+        {
+            "name": "cut",
+            "prefix": "cassettegirl cut",
+            "assetPath": "characters/cassettegirl-st",
+            "offsets": [0, 0]
+        }
+    ],
+    "startingAnimation": "",
+    "isPixel": false,
+    "scale": 1,
+    "Made_With": "the cigs Converter"
+}

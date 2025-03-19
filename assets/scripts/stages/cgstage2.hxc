@@ -1,0 +1,86 @@
+import funkin.play.PlayState;
+import funkin.modding.module.Module;
+import funkin.util.tools.StringTools;
+import funkin.Paths;
+import flixel.FlxSprite;
+import funkin.graphics.FunkinSprite;
+import flixel.FlxG;
+import flixel.tweens.misc.VarTween;
+import flixel.tweens.FlxTweenManager;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxTimer;
+import flixel.tweens.FlxEase;
+import funkin.util.FlxTweenUtil;
+import flixel.math.FlxPoint;
+import flixel.math.FlxMath;
+import Reflect;
+import Std;
+import Math;
+import funkin.play.stage.Stage;
+
+class Cgstage2Stage extends Stage {
+
+	function new() {
+		super("cgstage2");
+	}
+
+    var red:FlxSprite;
+	var blue:FlxSprite;
+    var purple:FlxSprite;
+	var green:FlxSprite;
+
+	function onNoteHit(event) {
+    	super.onNoteHit(event);
+
+		if (PlayState.instance.playerStrumline.getNotesMayHit().contains(event.note)) // Check if the note sang is from the player (aka musthit field)
+		{
+			switch(event.note.direction)
+			{
+				case 0:
+					  purple = new FunkinSprite(0, 0).loadTexture('weekcg/LEFT LIGHT');
+					  purple.cameras = [PlayState.instance.camHUD];
+					  purple.screenCenter();
+					  purple.scale.set(0.81,0.81);
+					  purple.blend = "overlay";
+					  PlayState.instance.add(purple);
+					  new FlxTimer().start(0.1, function(tmr:FlxTimer)
+						{
+							FlxTween.tween(purple, {alpha : 0}, 0.8, {ease: FlxEase.cubeOut});
+						});
+				case 1:
+					  blue = new FunkinSprite(0, 0).loadTexture('weekcg/DOWN LIGHT');
+					  blue.cameras = [PlayState.instance.camHUD];
+					  blue.screenCenter();
+					  blue.scale.set(0.81,0.81);
+					  blue.blend = "overlay";
+					  PlayState.instance.add(blue);
+					  new FlxTimer().start(0.1, function(tmr:FlxTimer)
+						{
+							FlxTween.tween(blue, {alpha : 0}, 0.8, {ease: FlxEase.cubeOut});
+						});
+				case 2:
+					  green = new FunkinSprite(0, 0).loadTexture('weekcg/UP LIGHT');
+					  green.cameras = [PlayState.instance.camHUD];
+					  green.screenCenter();
+					  green.scale.set(0.81,0.81);
+					  green.blend = "overlay";
+					  PlayState.instance.add(green);
+					  new FlxTimer().start(0.1, function(tmr:FlxTimer)
+						{
+							FlxTween.tween(green, {alpha : 0}, 0.8, {ease: FlxEase.cubeOut});
+						});
+				case 3:
+					  red = new FunkinSprite(0, 0).loadTexture('weekcg/RIGHT LIGHT');
+					  red.cameras = [PlayState.instance.camHUD];
+					  red.screenCenter();
+					  red.scale.set(0.81,0.81);
+					  red.blend = "overlay";
+					  PlayState.instance.add(red);
+					  new FlxTimer().start(0.1, function(tmr:FlxTimer)
+						{
+							FlxTween.tween(red, {alpha : 0}, 0.8, {ease: FlxEase.cubeOut});
+						});
+			}
+		}
+  	}
+}

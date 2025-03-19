@@ -1,0 +1,43 @@
+{
+    "version": "2.2.2",
+    "songName": "Earworm",
+    "artist": "Saruky",
+    "looped": false,
+    "offsets": {},
+    "playData": {
+        "songVariations": [],
+        "difficulties": [
+            "easy",
+            "normal",
+            "hard"
+        ],
+        "characters": {
+            "player": "bf",
+            "girlfriend": "gf",
+            "opponent": "cg"
+        },
+        "instrumental": "",
+        "altInstrumentals": [],
+        "stage": "cgstage",
+        "noteStyle": "default",
+        "ratings": { "easy": 0, "normal": 1, "hard": 2 },
+        "previewStart": 0,
+        "previewEnd": 15000
+    },
+    "generatedBy": "FelixBand's Legacy Chart Converter",
+    "timeFormat": "ms",
+    "timeChanges": [
+        {
+            "t": 0,
+            "bpm": 164
+        },
+        {
+            "t": 0,
+            "bpm": 164
+        },
+        {
+            "t": 0,
+            "bpm": 164
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "version": "1.0.0",
+    "name": "Cassette Girl Alt",
+    "renderType": "multisparrow",
+    "assetPath": "characters/cassettegirl-alt",
+    "flipX": false,
+    "singTime": 4,
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "cassettegirl idle alt",
+            "offsets": [
+                0,
+                0
+            ]
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "cassettegirl left alt",
+            "offsets": [
+                -2,
+                0
+            ],
+            "looped": true
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "cassettegirl right alt",
+            "offsets": [
+                -2,
+                0
+            ],
+            "looped": true
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "cassettegirl down alt",
+            "offsets": [
+                2,
+                -1
+            ],
+            "looped": true
+        },
+        {
+            "name": "singUP",
+            "prefix": "cassettegirl up alt",
+            "offsets": [
+                0,
+                0
+            ],
+            "looped": true
+        }
+    ],
+    "startingAnimation": "",
+    "isPixel": false,
+    "scale": 1,
+    "Made_With": "the cigs Converter"
+}

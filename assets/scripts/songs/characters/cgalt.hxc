@@ -1,0 +1,21 @@
+import flixel.FlxG;
+import flixel.FlxSprite;
+import funkin.Paths;
+import funkin.play.character.BaseCharacter;
+import funkin.play.character.MultiSparrowCharacter;
+import funkin.play.PlayState;
+import funkin.graphics.FunkinSprite;
+import funkin.play.character.CharacterDataParser;
+import funkin.play.character.CharacterType;
+
+class MachinaChar extends MultiSparrowCharacter {
+	function new() {
+		super('cg');
+	}
+
+	function onCreate(event:ScriptEvent) {
+		FunkinSprite.cacheTexture(Paths.image('characters/cassettegirl-alt'));
+
+		super.onCreate(event);
+	}
+}
