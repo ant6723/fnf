@@ -1,0 +1,343 @@
+{
+    "version": "1.0.0",
+    "name": "Boyfriend (Car) [Retake]",
+    "renderType": "multisparrow",
+    "assetPath": "characters/bf_car_retake",
+    "singTime": 6.1,
+    "isPixel": false,
+    "scale": 1,
+    "healthIcon": {
+        "id": "bf",
+        "isPixel": false,
+        "flipX": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "idle",
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "left i",
+            "offsets": [
+                13,
+                1
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "right i",
+            "offsets": [
+                -35,
+                -14
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singUP",
+            "prefix": "up i",
+            "offsets": [
+                -51,
+                28
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "down i",
+            "offsets": [
+                -6,
+                -57
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singLEFT-alt",
+            "prefix": "left-",
+            "offsets": [
+                34,
+                1
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singRIGHT-alt",
+            "prefix": "right-",
+            "offsets": [
+                -35,
+                -14
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singUP-alt",
+            "prefix": "up-",
+            "offsets": [
+                -33,
+                28
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singDOWN-alt",
+            "prefix": "down-",
+            "offsets": [
+                24,
+                -57
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singDOWNmiss",
+            "prefix": "down miss",
+            "offsets": [
+                4,
+                -22
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singLEFTmiss",
+            "prefix": "left miss",
+            "offsets": [
+                13,
+                16
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singRIGHTmiss",
+            "prefix": "right miss",
+            "offsets": [
+                -33,
+                12
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singUPmiss",
+            "prefix": "up miss",
+            "offsets": [
+                -50,
+                36
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "hey",
+            "prefix": "hey",
+            "offsets": [
+                0,
+                5
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "scared",
+            "prefix": "scared",
+            "offsets": [
+                0,
+                2
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "idle-hold",
+            "looped": true,
+            "prefix": "idle instance 1",
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                10,
+                11,
+                12,
+                13
+            ]
+        },
+        {
+            "name": "singLEFT-hold",
+            "looped": true,
+            "prefix": "left instance 1",
+            "offsets": [
+                14,
+                1
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "singRIGHT-hold",
+            "looped": true,
+            "prefix": "right instance 1",
+            "offsets": [
+                -35,
+                -14
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "singUP-hold",
+            "looped": true,
+            "prefix": "up instance 1",
+            "offsets": [
+                -49,
+                27
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "singDOWN-hold",
+            "looped": true,
+            "prefix": "down instance 1",
+            "offsets": [
+                -6,
+                -58
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "singLEFT-alt-hold",
+            "looped": true,
+            "prefix": "left-alt instance 1",
+            "offsets": [
+                35,
+                1
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "singRIGHT-alt-hold",
+            "looped": true,
+            "prefix": "right-alt instance 1",
+            "offsets": [
+                -35,
+                -14
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "singUP-alt-hold",
+            "looped": true,
+            "prefix": "up-alt instance 1",
+            "offsets": [
+                -31,
+                26
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "singDOWN-alt-hold",
+            "looped": true,
+            "prefix": "down-alt instance 1",
+            "offsets": [
+                15,
+                -59
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "firstDeath",
+            "assetPath": "characters/BOYFRIEND_DEAD",
+            "prefix": "BF dies",
+            "offsets": [-37, 11]
+          },
+          {
+            "name": "fakeoutDeath",
+            "assetPath": "characters/BOYFRIEND_DEAD",
+            "prefix": "BF dies",
+            "offsets": [-37, 11]
+          },
+          {
+            "name": "deathLoop",
+            "assetPath": "characters/BOYFRIEND_DEAD",
+            "prefix": "BF Dead Loop",
+            "looped": true,
+            "offsets": [-37, 5]
+          },
+          {
+            "name": "deathConfirm",
+            "assetPath": "characters/BOYFRIEND_DEAD",
+            "prefix": "BF Dead confirm",
+            "offsets": [-37, 69]
+          },
+          {
+            "name": "cheer",
+            "prefix": "Cheer",
+            "assetPath": "characters/BFCheer",
+            "offsets": [0, 0]
+        }
+    ],
+    "flipX": true
+}

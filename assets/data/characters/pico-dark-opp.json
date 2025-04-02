@@ -1,0 +1,388 @@
+{
+	"version": "1.0.0",
+	"renderType": "multisparrow",
+	"Made_With": "the cigs Converter",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Pico (Dark) [Retake] {Opponent}",
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"startingAnimation": "idle",
+	"singTime": 4,
+	"isPixel": false,
+	"assetPath": "characters/Pico_Dark_Retake",
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"id": "pico",
+		"flipX": false,
+		"isPixel": false,
+		"scale": 0.9
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "idle",
+			"flipX": false,
+			"looped": false,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				63,
+				2
+			],
+			"frameRate": 24,
+			"prefix": "right i",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-22,
+				-60
+			],
+			"frameRate": 24,
+			"prefix": "down i",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-74,
+				-7
+			],
+			"frameRate": 24,
+			"prefix": "left i",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-49,
+				35
+			],
+			"frameRate": 24,
+			"prefix": "up i",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				49,
+				-1
+			],
+			"frameRate": 24,
+			"prefix": "hey",
+			"flipX": false,
+			"looped": false,
+			"name": "hey"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				63,
+				2
+			],
+			"frameRate": 24,
+			"prefix": "right m",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-77,
+				-7
+			],
+			"frameRate": 24,
+			"prefix": "left m",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHTmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-49,
+				35
+			],
+			"frameRate": 24,
+			"prefix": "up m",
+			"flipX": false,
+			"looped": false,
+			"name": "singUPmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-22,
+				-60
+			],
+			"frameRate": 24,
+			"prefix": "down m",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWNmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				77,
+				1
+			],
+			"frameRate": 24,
+			"prefix": "right alt",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-60,
+				-20
+			],
+			"frameRate": 24,
+			"prefix": "left-",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				77,
+				1
+			],
+			"frameRate": 24,
+			"prefix": "right alt instance 100",
+			"flipX": false,
+			"name": "singLEFT-alt-loop",
+			"frameIndices": [
+			2,
+			3,
+			4
+			],
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-50,
+				82
+			],
+			"frameRate": 24,
+			"prefix": "up-",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-50,
+				82
+			],
+			"frameRate": 24,
+			"prefix": "up-alt instance 100",
+			"flipX": false,
+			"frameIndices": [
+			2,
+			3,
+			4
+			],
+			"name": "singUP-alt-loop",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				40,
+				-160
+			],
+			"frameRate": 24,
+			"prefix": "down-",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				130,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Pico hit",
+			"flipX": false,
+			"looped": false,
+			"name": "hit"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				30,
+				220
+			],
+			"frameRate": 24,
+			"prefix": "shoot and reload instance 100",
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			],
+			"flipX": false,
+			"looped": false,
+			"name": "shoot"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "lock in",
+			"flipX": false,
+			"looped": false,
+			"name": "intro1"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				30,
+				220
+			],
+			"frameRate": 24,
+			"prefix": "shoot and reload",
+			"flipX": false,
+			"looped": false,
+			"name": "intro2"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-4,
+				-14
+			],
+			"frameRate": 24,
+			"prefix": "Pico gun reload",
+			"flipX": false,
+			"looped": false,
+			"name": "cockCutscene"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-4,
+				-14
+			],
+			"frameRate": 24,
+			"prefix": "Pico gun reload",
+			"flipX": false,
+			"looped": false,
+			"name": "cock"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				130,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Pico hit",
+			"flipX": false,
+			"looped": false,
+			"name": "shootMISS"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-1,
+				-1
+			],
+			"frameRate": 24,
+			"prefix": "burpp",
+			"flipX": false,
+			"looped": false,
+			"name": "burpShit"
+		},
+		{
+			"name": "burpSmileLong",
+			"prefix": "BURP",
+			"frameIndices": [
+			  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+			  21, 22, 23, 24, 25, 25, 26, 27, 28, 29, 30, 31, 31, 31, 31, 31, 31, 31,
+		   31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31,
+		   31, 31, 31, 31, 31
+			],
+			"offsets": [33, 2]
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				23,
+				2
+			],
+			"frameRate": 24,
+			"prefix": "BURP",
+			"flipX": false,
+			"looped": false,
+			"name": "burpSmile"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-50,
+				220
+			],
+			"frameRate": 24,
+			"prefix": "pico fire",
+			"flipX": false,
+			"looped": false,
+			"name": "attack"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-4,
+				-14
+			],
+			"frameRate": 24,
+			"prefix": "Pico gun reload",
+			"flipX": false,
+			"looped": false,
+			"name": "preAttack"
+		}
+	]
+}

@@ -1,0 +1,312 @@
+{
+    "version": "1.0.0",
+    "name": "Boyfriend (Car) [Retake] {Opponent}",
+    "renderType": "multisparrow",
+    "assetPath": "characters/bf_car_retake",
+    "singTime": 6.1,
+    "isPixel": false,
+    "scale": 1,
+    "healthIcon": {
+        "id": "bf",
+        "isPixel": false,
+        "flipX": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "idle",
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "right i",
+            "offsets": [
+                29,
+                -15
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "left i",
+            "offsets": [
+                -6,
+                0
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singUP",
+            "prefix": "up i",
+            "offsets": [
+                10,
+                28
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "down i",
+            "offsets": [
+                0,
+                -57
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singLEFT-alt",
+            "prefix": "right-",
+            "offsets": [
+                32,
+                -15
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singRIGHT-alt",
+            "prefix": "left-",
+            "offsets": [
+                -7,
+                1
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singUP-alt",
+            "prefix": "up-",
+            "offsets": [
+                7,
+                28
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singDOWN-alt",
+            "prefix": "down-",
+            "offsets": [
+                0,
+                -58
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singDOWNmiss",
+            "prefix": "down miss",
+            "offsets": [
+                0,
+                -23
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singLEFTmiss",
+            "prefix": "right miss",
+            "offsets": [
+                29,
+                10
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singRIGHTmiss",
+            "prefix": "left miss",
+            "offsets": [
+                -6,
+                17
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singUPmiss",
+            "prefix": "up miss",
+            "offsets": [
+                10,
+                36
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "hey",
+            "prefix": "hey",
+            "offsets": [
+                -3,
+                5
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "scared",
+            "prefix": "scared",
+            "offsets": [
+                -4,
+                2
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "idle-hold",
+            "looped": true,
+            "prefix": "idle instance 1",
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                10,
+                11,
+                12,
+                13
+            ]
+        },
+        {
+            "name": "singLEFT-hold",
+            "looped": true,
+            "prefix": "right instance 1",
+            "offsets": [
+                29,
+                -15
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "singRIGHT-hold",
+            "looped": true,
+            "prefix": "left instance 1",
+            "offsets": [
+                -6,
+                0
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "singUP-hold",
+            "looped": true,
+            "prefix": "up instance 1",
+            "offsets": [
+                10,
+                28
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "singDOWN-hold",
+            "looped": true,
+            "prefix": "down instance 1",
+            "offsets": [
+                0,
+                -57
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "singLEFT-alt-hold",
+            "looped": true,
+            "prefix": "right-alt instance 1",
+            "offsets": [
+                32,
+                -15
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "singRIGHT-alt-hold",
+            "looped": true,
+            "prefix": "left-alt instance 1",
+            "offsets": [
+                -7,
+                1
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "singUP-alt-hold",
+            "looped": true,
+            "prefix": "up-alt instance 1",
+            "offsets": [
+                7,
+                27
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "singDOWN-alt-hold",
+            "looped": true,
+            "prefix": "down-alt instance 1",
+            "offsets": [
+                0,
+                -58
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                2,
+                3,
+                4,
+                5
+            ]
+        }
+    ],
+    "flipX": true
+}

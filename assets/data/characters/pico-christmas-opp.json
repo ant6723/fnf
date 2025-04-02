@@ -1,0 +1,250 @@
+{
+    "version": "1.0.0",
+    "name": "Pico (Christmas) [Opponent] {Retake}",
+    "renderType": "multisparrow",
+    "assetPath": "characters/Pico_Christmas_Retake",
+    "healthIcon": {
+	"offsets": [
+		0,
+		0
+	],
+	"id": "pico",
+	"flipX": false,
+	"isPixel": false,
+	"scale": 0.9
+},
+    "flipX": true,
+    "singTime": 4,
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "idle",
+            "offsets": [
+                0,
+                0
+            ]
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "right i",
+            "offsets": [
+                60,
+                3
+            ]
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "down i",
+            "offsets": [
+                -22,
+                -60
+            ]
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "left i",
+            "offsets": [
+                -18,
+                -7
+            ]
+        },
+        {
+            "name": "singUP",
+            "prefix": "up i",
+            "offsets": [
+                -29,
+                35
+            ]
+        },
+        {
+            "name": "hey",
+            "prefix": "hey",
+            "offsets": [
+                49,
+                3
+            ]
+        },
+        {
+            "name": "singLEFTmiss",
+            "prefix": "right m",
+            "offsets": [
+                63,
+                2
+            ]
+        },
+        {
+            "name": "singRIGHTmiss",
+            "prefix": "left m",
+            "offsets": [
+                -17,
+                -7
+            ]
+        },
+        {
+            "name": "singUPmiss",
+            "prefix": "up m",
+            "offsets": [
+                -39,
+                35
+            ]
+        },
+        {
+            "name": "singDOWNmiss",
+            "prefix": "down m",
+            "offsets": [
+                -22,
+                -60
+            ]
+        },
+        {
+            "name": "singLEFT-alt",
+            "prefix": "right alt",
+            "offsets": [
+                77,
+                1
+            ]
+        },
+        {
+            "name": "singRIGHT-alt",
+            "prefix": "left-",
+            "offsets": [
+                -60,
+                -20
+            ]
+        },
+        {
+            "name": "singLEFT-alt-loop",
+            "prefix": "right alt instance 100",
+            "offsets": [
+                77,
+                1
+            ],
+            "looped": true
+        },
+        {
+            "name": "singDOWN-alt",
+            "prefix": "down-",
+            "offsets": [
+                40,
+                -160
+            ]
+        },
+        {
+            "name": "hit",
+            "prefix": "Pico hit",
+            "offsets": [
+                130,
+                0
+            ]
+        },
+        {
+            "name": "shoot",
+            "prefix": "shoot and reload instance 100",
+            "offsets": [
+                30,
+                220
+            ]
+        },
+        {
+            "name": "intro1",
+            "prefix": "lock in",
+            "offsets": [
+                0,
+                0
+            ]
+        },
+        {
+            "name": "intro2",
+            "prefix": "shoot and reload",
+            "offsets": [
+                30,
+                220
+            ]
+        },
+        {
+            "name": "cockCutscene",
+            "prefix": "Pico gun reload",
+            "offsets": [
+                -4,
+                -14
+            ]
+        },
+        {
+            "name": "cock",
+            "prefix": "Pico gun reload",
+            "offsets": [
+                -4,
+                -14
+            ]
+        },
+        {
+            "name": "shootMISS",
+            "prefix": "Pico hit",
+            "offsets": [
+                130,
+                0
+            ]
+        },
+        {
+            "name": "burpShit",
+            "prefix": "burpp",
+            "offsets": [
+                -1,
+                -1
+            ]
+        },
+        {
+            "name": "burpSmile",
+            "prefix": "BURP",
+            "offsets": [
+                24,
+                2
+            ]
+        },
+        {
+            "name": "attack",
+            "prefix": "pico fire",
+            "offsets": [
+                -50,
+                220
+            ]
+        },
+        {
+            "name": "preAttack",
+            "prefix": "Pico gun reload",
+            "offsets": [
+                -4,
+                -14
+            ]
+        },
+        {
+            "name": "singUP-alt",
+            "prefix": "ikNode_1000",
+            "offsets": [
+                -48,
+                79
+            ]
+        },
+        {
+            "name": "singUP-alt-loop",
+            "prefix": "ikNode_1000",
+            "offsets": [
+                -48,
+                79
+            ],
+            "looped": true
+        },
+        {
+            "name": "burpSmileLong",
+            "prefix": "BURP bigg instance 100",
+            "offsets": [
+                24,
+                2
+            ]
+        }
+    ],
+    "startingAnimation": "idle",
+    "isPixel": false,
+    "scale": 1,
+    "Made_With": "the cigs Converter"
+}

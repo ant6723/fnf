@@ -1,0 +1,138 @@
+{
+    "version": "1.0.0",
+    "name": "Boyfriend (Holding Girlfriend) [Retake] {Opponent}",
+    "renderType": "multisparrow",
+    "assetPath": "characters/bf_holding_gf_retake",
+    "singTime": 6.1,
+    "isPixel": false,
+    "scale": 1,
+    "healthIcon": {
+        "id": "bf",
+        "isPixel": false,
+        "flipX": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "idle",
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singUP",
+            "prefix": "up i",
+            "offsets": [
+                28,
+                28
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "down i",
+            "offsets": [
+                16,
+                -29
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singDOWNmiss",
+            "prefix": "down miss",
+            "offsets": [
+                15,
+                -30
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singUPmiss",
+            "prefix": "up miss",
+            "offsets": [
+                22,
+                26
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "hey",
+            "prefix": "hey",
+            "offsets": [
+                -3,
+                53
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "scared",
+            "prefix": "scared",
+            "offsets": [
+                25,
+                7
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "bfCatch",
+            "prefix": "bf catches gf",
+            "offsets": [
+                37,
+                54
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "right i",
+            "offsets": [
+                40,
+                4
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "left i",
+            "offsets": [
+                -2,
+                -1
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singLEFTmiss",
+            "prefix": "right miss",
+            "offsets": [
+                41,
+                4
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singRIGHTmiss",
+            "prefix": "left miss",
+            "offsets": [
+                4,
+                -1
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        }
+    ],
+    "flipX": true
+}
