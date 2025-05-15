@@ -37,14 +37,28 @@ class StressSong extends Song {
     return false;
 	}
 
+  public override function listAltInstrumentalIds(difficultyId:String, variationId:String):Array<String> {
+    if (difficultyId == 'easy' || difficultyId == 'normal' || difficultyId == 'hard') {
+      var hasBeatenPicoMix = Save.instance.hasBeatenSong(this.id, null, 'pico');
+
+      switch (variationId) {
+        case 'pico':
+          // return hasBeatenPicoMix ? [''] : [];
+          // No Pico mix on BF instrumental, sorry!
+          return [];
+        default:
+          return hasBeatenPicoMix ? ['pico'] : [];
+      }
+    }
+
+    return [];
+  }
+
   public override function onCountdownStart(event:CountdownScriptEvent):Void {
 		super.onCountdownStart(event);
 
-    var usePicoVideo = false;
-
-    // Skip the cutscene if we are in Freeplay.
-    if (PlayState.instance.currentVariation == 'default' && !PlayStatePlaylist.isStoryMode) hasPlayedCutscene = true;
-    if (PlayState.instance.currentVariation == 'pico') usePicoVideo = true;
+    // Skip the cutscene unless we are in Story Mode, or Pico Mix specifically.
+    if (PlayState.instance.currentVariation != 'pico' && !PlayStatePlaylist.isStoryMode) hasPlayedCutscene = true;
 
     if (!hasPlayedCutscene) {
       trace('Pausing countdown to play a video cutscene (`stress`)');
@@ -53,10 +67,18 @@ class StressSong extends Song {
 
       event.cancel(); // CANCEL THE COUNTDOWN!
 
-      startVideo(usePicoVideo);
+      startVideo(PlayState.instance.currentVariation == 'pico');
+    }
+
+    if (tankmanGroup != null && !tankmanGroup.scriptCall('isValid')) {
+      // Destroy the tankman group if it's not valid.
+      tankmanGroup.destroy();
+      PlayState.instance.currentStage.remove(tankmanGroup);
+      tankmanGroup = null;
     }
 
     if (tankmanGroup == null) {
+      // Initialize the tankman group if it's not available.
       trace('Initializing tankman group... ' + PlayState.instance.currentVariation);
       tankmanGroup = ScriptedFlxSpriteGroup.init('TankmanSpriteGroup', PlayState.instance.currentVariation != 'default');
     }
